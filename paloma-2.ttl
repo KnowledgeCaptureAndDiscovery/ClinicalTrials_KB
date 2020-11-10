@@ -1,0 +1,30 @@
+@prefix Clinical_Trials: <http://myclinicaltrials.org/CT#> .
+@prefix schema: <http://schema.org/> .
+
+<https://clinicaltrials.gov/ct2/show/NCT04199078?term=paloma-2&draw=2&rank=1> a schema:MedicalTrial ;
+    Clinical_Trials:hasDrug <https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Letrozole&format=json>,
+        <https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=PD-0332991&format=json>,
+        <https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Placebo&format=json> ;
+    Clinical_Trials:hasExclusionCriteria "Confirmed diagnosis of HER2 positive disease",
+        "Known uncontrolled or symptomatic CNS metastases",
+        "Patients with advanced, symptomatic, visceral spread that are at risk of life threatening complication in the short term",
+        "Prior (neo)adjuvant treatment with letrozole or anastrozole with DFI ≤ 12-months from completion of treatment.",
+        "Prior treatment with any CDK 4/6 inhibitor." ;
+    Clinical_Trials:hasInclusionCriteria "Adequate organ and marrow function",
+        "Adult women with locoregionally recurrent or metastatic disease not amenable to curative therapy.",
+        "Confirmed diagnosis of ER positive breast cancer",
+        "Eastern Cooperative Oncology Group [ECOG] 0-2",
+        "Measurable disease as per Response Evaluation Criterion in Solid Tumors [RECIST] or bone-only disease",
+        "No prior systemic anti-cancer therapy for advanced ER+ disease.",
+        "Patient must agree to provide tumor tissue",
+        "Postmenopausal women" .
+
+<https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Letrozole&format=json> schema:description "<span class=\"searchmatch\">Letrozole</span>, sold under the brand name Femara among others, is an aromatase inhibitor which is used in the treatment of hormonally-responsive breast cancer" ;
+    schema:name "Letrozole" .
+
+<https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=PD-0332991&format=json> schema:description "Kalous, O; Cohen, DJ; Desai, AJ; Ginther, C; Atefi, M; et al. (2009). &quot;<span class=\"searchmatch\">PD</span> <span class=\"searchmatch\">0332991</span>, a selective cyclin D kinase 4/6 inhibitor, preferentially inhibits proliferation" ;
+    schema:name "PD-0332991" .
+
+<https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Placebo&format=json> schema:description "A <span class=\"searchmatch\">placebo</span> (/pləˈsiːboʊ/ plə-SEE-boh) is a substance or treatment which is designed to have no therapeutic value. Common <span class=\"searchmatch\">placebos</span> include inert tablets" ;
+    schema:name "Placebo" .
+

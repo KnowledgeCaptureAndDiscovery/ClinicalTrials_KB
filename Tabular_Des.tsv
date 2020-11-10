@@ -1,0 +1,127 @@
+Node1	label	Node2	ID	Source
+PALOMA-2	rdf:type	clinicalTrial		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	isPostmenopausal		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	hasECOGStatus0-2		
+PALOMA-2	hasInclusionCriteria	isMetastatic		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	isLocoregionallyRecurrent		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	ERPositive		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	hadPriorSystemicAnti-cancerTherapyForAdvancedDisease		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	IsRECISTMeasurable		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	hadAdequateOrganFunction		clinicaltrials.gov
+PALOMA-2	hasInclusionCriteria	hadAdequateMarrowFunction		clinicaltrials.gov
+PALOMA-2	hasExclusionCriteria	HER2Positive		clinicaltrials.gov
+PALOMA-2	hasExclusionCriteria	hasAdvancedSpreadThatAreAtRiskOfLifeThreateningComplicationInTheShortTerm		clinicaltrials.gov
+PALOMA-2	hasExclusionCriteria	hasSymptomaticSpreadThatAreAtRiskOfLifeThreateningComplicationInTheShortTerm		clinicaltrials.gov
+PALOMA-2	hasExclusionCriteria	hasViceralSpreadThatAreAtRiskOfLifeThreateningComplicationInTheShortTerm		clinicaltrials.gov
+PALOMA-2	hasExclusionCriteria	hasPrior(neo)AdjuvantTreatmentWithLetrozoleWithDFI≤12-monthsFromCompletionOfTreatment		clinicaltrials.gov
+PALOMA-2	hasExclusionCriteria	hasPrior(neo)AdjuvantTreatmentWithAnastrozoleWithDFI≤12-monthsFromCompletionOfTreatment		clinicaltrials.gov
+PALOMA-2	hasExclusionCriteria	hasPriorTreatmentWithAnyCDK4/6Inhibitor		clinicaltrials.gov
+PALOMA-2	hasDrug	Palbociclib	1	clinicaltrials.gov
+1	hasDescription	inhibitorOfCyclin-dependentKinases4&6		https://druginfo.nlm.nih.gov/drugportal/name/Palbociclib
+PALOMA-2	hasDrug	Letrozole	2	clinicaltrials.gov
+2	hasDescription	Non-steroidalAromataseInhibitor		https://druginfo.nlm.nih.gov/drugportal/name/Letrozole
+PALOMA-2	hasPercentageOfWhitePatients	77.5	3	PALOMA-2 paper
+3	hasUnit	%		
+PALOMA-2	hasPercentageOfPatientsWithVisceralDisease	48.2	4	PALOMA-2 paper
+4	hasUnit	%		
+4	hasGroup	treatmentGroup		
+PALOMA-2	hasPercentageOfPatientsWithVisceralDisease	49.5	5	PALOMA-2 paper
+5	hasUnit	%		
+5	hasGroup	controlGroup		
+PALOMA-2	hasPercentageOfPatientsHadReceivedPriorAdjuvantChemotherapy	48	6	PALOMA-2 paper
+6	hasUnit	%		
+6	hasGroup	treatmentGroup		
+PALOMA-2	hasPercentageOfPatientsHadReceivedPriorAdjuvantChemotherapy	49.1	7	PALOMA-2 paper
+7	hasUnit	%		
+7	hasGroup	controlGroup		
+PALOMA-2	hasPercentageOfPatientsWithNewlyDiagonosedAdavancedDisease	37.2	8	PALOMA-2 paper
+8	hasUnit	%		
+PALOMA-2	hasNumberOfPatients	444	9	clinicaltrials.gov
+9	hasGroup	treatmentGroup		
+9	hasUnit	person		
+PALOMA-2	hasNumberOfPatients	222	10	clinicaltrials.gov
+10	hasGroup	treatmentGroup		
+10	hasUnit	person		
+PALOMA-2	hasMedianAge	62	11	clinicaltrials.gov
+11	hasGroup	treatmentGroup		
+11	hasUnit	year		
+PALOMA-2	hasMedianAge	61	12	clinicaltrials.gov
+12	hasGroup	controlGroup		
+12	hasUnit	year		
+PALOMA-2	hasMedianSurvivalRate	24.8	13	clinicaltrials.gov
+13	hasGroup	treatmentGroup		
+13	hasUnit	month		
+PALOMA-2	hasMedianSurvivalRage	14.5	14	clinicaltrials.gov
+14	hasGroup	controlGroup		
+14	hasUnit	month		
+PALOMA-2	hasHazardRatio	0.576		clinicaltrials.gov
+				
+				
+				
+				
+				
+				
+				
+MONALEESA-2	rdf:type	clinicalTrial		clinicaltrials.gov
+MONALEESA-2	hasInclusionCriteria	isPostmenopausal		clinicaltrials.gov
+MONALEESA-2	hasInclusionCriteria	hasECOGStatus0-2		
+MONALEESA-2	hasInclusionCriteria	isMetastatic		clinicaltrials.gov
+MONALEESA-2	hasInclusionCriteria	isLocoregionallyRecurrent		clinicaltrials.gov
+MONALEESA-2	hasInclusionCriteria	ERPositive		clinicaltrials.gov
+MONALEESA-2	hasInclusionCriteria	hadPriorSystemicAnti-cancerTherapyForAdvancedDisease		clinicaltrials.gov
+MONALEESA-2	hasInclusionCriteria	IsRECISTMeasurable		clinicaltrials.gov
+MONALEESA-2	hasInclusionCriteria	min_age_5		
+min_age_5	rdf:type	Min_Age_Criteria		
+min_age_5	value	5		
+MONALEESA-2	hasExclusionCriteria	prior(neo)AdjuvantTreatmentWithLetrozoleWithDFI≤12-monthsFromCompletionOfTreatment_true		clinicaltrials.gov
+prior(neo)AdjuvantTreatmentWithLetrozoleWithDFI≤12-monthsFromCompletionOfTreatment_true	rdf:type	Treatment_Criteria		
+prior(neo)AdjuvantTreatmentWithLetrozoleWithDFI≤12-monthsFromCompletionOfTreatment_true	value	TRUE		
+MONALEESA-2	hasExclusionCriteria	hasPrior(neo)AdjuvantTreatmentWithAnastrozoleWithDFI≤12-monthsFromCompletionOfTreatment		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	hasPriorTreatmentWithAnyCDK4/6Inhibitor		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	hasConcurrentMalignancy		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	hasMalignancyWithin3yearsOfRandomization		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	isCurrentlyReceivingStrongInducersOrInhibitorsOfCYP3A4		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	isCurrentlyReceivingMedicationsHaveARiskToProlongTheQTIntervalOrInduceTorsadesDePointes. 		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	isCurretnlyReceivingMedicationsThatHaveANarrowTherapeuticWindowAndArePredominantlyMetabolizedThroughCYP3A4		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	isCurretnlyReceivingHerbalPreparations/medications		clinicaltrials.gov
+MONALEESA-2	hasExclusionCriteria	hasActiveCardiacDiseaseOrAHistoryOfCardiacDysfunction		clinicaltrials.gov
+MONALEESA-2	hasDrug	Ribociclib	15	clinicaltrials.gov
+MONALEESA-2	hasDescription	InhibitsBothCDK4AndCDK6		https://druginfo.nlm.nih.gov/drugportal/name/Ribociclib
+MONALEESA-2	hasDrug	Letrozole	16	clinicaltrials.gov
+MONALEESA-2	hasDescription	Non-steroidalAromataseInhibitor		https://druginfo.nlm.nih.gov/drugportal/name/Letrozole
+MONALEESA-2	hasPercentageOfWhitePatients	80.5	17	MONALEESA-2 paper
+17	hasUnit	%		
+17	hasGroup	treatmentGroup		
+MONALEESA-2	hasPercentageOfWhitePatients	83.8	18	MONALEESA-2 paper
+18	hasUnit	%		
+18	hasGroup	controlGroup		
+MONALEESA-2	hasPercentageOfPatientsWithVisceralDisease	59	19	MONALEESA-2 paper
+19	hasUnit	%		
+19	hasGroup	treatmentGroup		
+MONALEESA-2	hasPercentageOfPatientsWithVisceralDisease	58.7	20	MONALEESA-2 paper
+20	hasUnit	%		
+20	hasGroup	controlGroup		
+MONALEESA-2	hasPercentageOfPatientsHadReceivedPriorAdjuvantChemotherapy	43.7	21	MONALEESA-2 paper
+MONALEESA-2	hasUnit	%		
+MONALEESA-2	hasGroup	treatmentGroup		
+MONALEESA-2	hasPercentageOfPatientsHadReceivedPriorAdjuvantChemotherapy	43.4	22	MONALEESA-2 paper
+22	hasUnit	%		
+22	hasGroup	controlGroup		
+MONALEESA-2	hasPercentageOfPatientsWithNewlyDiagonosedAdavancedDisease	34	23	PALOMA-2 paper
+MONALEESA-2	hasUnit	%		
+MONALEESA-2	hasNumberOfPatients	334	24	clinicaltrials.gov
+24	hasGroup	treatmentGroup		
+24	hasUnit	person		
+MONALEESA-2	hasNumberOfPatients	334	25	clinicaltrials.gov
+25	hasGroup	treatmentGroup		
+25	hasUnit	person		
+MONALEESA-2	hasMedianAge	62	26	clinicaltrials.gov
+26	hasGroup	treatmentGroup		
+26	hasUnit	year		
+MONALEESA-2	hasMedianAge	63	27	clinicaltrials.gov
+27	hasGroup	controlGroup		
+27	hasUnit	year		
+MONALEESA-2	hasMedianSurvivalRage	14.7	28	clinicaltrials.gov
+28	hasGroup	controlGroup		
+28	hasUnit	month		
+MONALEESA-2	hasHazardRatio	0.556		clinicaltrials.gov
