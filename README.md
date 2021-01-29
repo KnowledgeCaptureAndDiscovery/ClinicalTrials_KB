@@ -1,2 +1,2 @@
 # clinincal_trials
-Repository for stroring all work done for comparing clinical trials
+Repository for storing all work done for comparing clinical trials
